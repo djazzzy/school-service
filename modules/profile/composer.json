@@ -1,0 +1,23 @@
+{
+  "name": "djazzy/admin",
+  "description": "admin module",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Djazzy",
+      "email": "onimo91@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "costa-rico/yii2-images": "~1.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "djazzy\\profile\\": "src/"
+    }
+  }
+}
